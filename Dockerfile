@@ -173,10 +173,8 @@ RUN apt-get install -y bc bison bsdmainutils build-essential ccache cgpt cron \
       libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 \
       libxml2-utils lsof lzop maven openjdk-8-jdk pngcrush \
       procps python rsync schedtool squashfs-tools wget xdelta3 xsltproc yasm \
-      zip zlib1g-dev lunzip swig python-dev python-pip
+      zip zlib1g-dev lunzip swig python-dev
       
-RUN pip install pycrypto
-
 RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bin/repo
 RUN chmod a+x /usr/local/bin/repo
 
