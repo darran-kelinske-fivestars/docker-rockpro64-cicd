@@ -1,6 +1,12 @@
 Note: This was forked from a project that is used to build MicroG for Lineage.
 
+
 The actual usage differs and it is intended that you mount the src directory of your RockPRO source to /srv/src and then connect to the terminal of the running instance to perform the necessary build steps.
+
+
+
+
+
 
 
 ## Volumes
